@@ -71,7 +71,7 @@ Zamanı verimli kullanmak için aşağıdaki sırayla geliştirme yapmanı tavsi
 Sarı #FDC913, Açık Gri: #5F5F5F, Koyu Gri #292929, Kırmızı #CE2829, Bej: #FAF7F2
 
 #### Tasarımda Kullanılan Fontlar
-
+ 
 [Barlow](https://fonts.google.com/specimen/Barlow)
 [Quattrocento](https://fonts.google.com/specimen/Quattrocento)
 [Satisfy](https://fonts.google.com/specimen/Satisfy)

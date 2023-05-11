@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+
+
+
+#menü-içerik {
+    height: 120vh;
+    background-image: url('./pizza image.png');
+    background-size: cover; /* Resmi elemanın tamamını kaplayacak şekilde ölçeklendirin */
+    background-position:center; /* Resmi elemanın dikey ve yatay olarak merkezine hizalayın */
+    background-repeat: no-repeat;
+  }
+
+#menü-içerik{
+    display: flex;
+    justify-content: center;
+
+}
+
+#text{
+    text-align: center;
+    margin: 55px;
+}
+
+.baslik2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    margin: 10px;
+    color: #FAF7F2;
+   
+}
+
+
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FDC913;
+    width: 8rem;
+    height: 2rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1rem;
+    padding:1rem;
+    border: 1px;
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #5a0303,
+    -6px 6px 12px #5e0c0c;
+}
+
+#button-container::before {
+    content: '';
+    width: 0;
+    height: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+    
+
+
+}
+
+#button-container:hover::before {
+    width: 8rem;
+}

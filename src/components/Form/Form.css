@@ -1,0 +1,209 @@
+
+.link{
+  background-color: #CE2829;
+  padding: .5rem;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin:0  25rem;
+
+   
+  }
+  
+  nav li {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+   
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #FAF7F2;
+    font-weight: bold;
+    transition: color 0.6s ease;
+    padding: 10px 20px;
+   
+    
+    
+  }
+  
+  nav a:hover {
+    background-color: #fdc913;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-shadow: 2rem;
+  }
+
+  .contanier{
+    
+    margin: 5rem;
+    padding: 1rem 25rem;
+    
+}
+
+.checklist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checklist label {
+    flex-basis: calc(33.33% - 70px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .checklist label {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+.checklist input[type="checklist"] {
+    margin-right: 10px;
+  }
+
+  label[for="size-dropdown"] {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+  }
+
+  label[for="personal data"] {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem .5rem;
+    
+    
+  }
+
+  
+
+  label[for="checklist"] {
+    font-weight: bold;
+    
+  }
+
+  #boyutsec-checkbox{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .siparislerim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px outset;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    flex: 2;
+    width: 40%;
+    margin: 0 35rem;
+    
+    
+    
+  }
+
+  .siparislerim > div:first-child {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .siparislerim> div:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .siparislerim > div:nth-child(3) {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .secimler {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #order-button {
+    
+    width: 100%;
+    background-color: #fdc913;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px 6px 12px #ffffff;
+  
+    
+  }
+  
+
+  #order-button:hover {
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    scale: 110%;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+ 
+
+
+  .azalt-button,.arttır-button {
+  width: 2.5rem;
+  border: 0.5px outset;
+  background-color: #fdc913;
+  font-size: 1em;
+  font-weight: bold;
+ 
+  padding: 10px;
+}
+
+.adet-sayisi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  font-size: 1em;
+}
+
+.adet-kutusu {
+  border: 0.5px solid #ccc;
+  width: 2.5rem;
+  display: inline-block;
+ 
+}
+
+.adet-bolumu {
+  text-align: center;
+  display: flex;
+  margin: 2rem  0;
+  align-items: center;
+  
+}
+
+.adet-ve-siparis {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+ 
+  
+}
